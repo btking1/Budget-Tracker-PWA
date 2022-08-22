@@ -1,30 +1,7 @@
 let transactions = [];
 let myChart;
-// const saveRecord = require('./idb')
-
-function saveRecord(data){
-  console.log(data);
-  let db = window.indexedDB.open('mytestdb')
-
-  db.onsuccess = res => console.log(res);
-
-  db.onsuccess = function(){
-    let DB = db.result;
-    console.log(DB)
-    let tr = DB.transaction('Banktransactions', 'readwrite');
-    DB.createObjectStore('Bank-transactions', {keyPath: 'trans-id'});
-    console.log
-  }
- 
-
-  // let bankTransactions = tr.objectStore('Banktransactions');
-
-  // let req = Banktransactions.add(data);
-
-  // req.onsuccess = (msg) => console.log(msg);
 
 
-}
 fetch("/api/transaction")
   .then(response => {
     return response.json();
@@ -161,6 +138,7 @@ function sendTransaction(isAdding) {
   .catch(err => {
     // fetch failed, so save in indexed db
     saveRecord(transaction);
+    console.log(err)
 
     // clear form
     nameEl.value = "";
