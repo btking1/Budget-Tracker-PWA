@@ -1,7 +1,7 @@
 const APP_PREFIX = 'BudgetTracker-'
 const VERSION = 'version_1'
 const CACHE_NAME = APP_PREFIX + VERSION
-const DATA_CACHE_NAME = 'BT-cache-v1';
+const DATA_CACHE_NAME = 'BT-cache-v1'
 
 const FILES_TO_CACHE = [
     './index.html',
@@ -33,7 +33,6 @@ self.addEventListener('fetch', function (event) {
                             return response
                         })
                         .catch((err) => {
-                            
                             return cache.match(event.request)
                         })
                 })
