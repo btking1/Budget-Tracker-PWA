@@ -11,7 +11,7 @@
 
 <br/>
 
-Budget-Tracker is a fully realized progressive web app that allows users to track their expenses and incomes anywhere, anytime. If you would like to try it yourself, you can visit the [app's website](https://budget-tracking-btking1.herokuapp.com/)
+Budget-Tracker is a fully realized progressive web app that allows users to track their expenses and incomes anywhere, anytime. If you would like to try it yourself, you can visit the app's website [HERE](https://budget-tracking-btking1.herokuapp.com/)
 
 <br/>
 
@@ -46,9 +46,11 @@ Budget-Tracker is a fully realized progressive web app that allows users to trac
 
 <br/>
 
-<img src="https://github.com/btking1/Budget-Tracker-PWA/blob/main/images/Screenshot%20.jpg?raw=true" alt="budget tracker" title="screenshot" width="auto" height="300vh" /> 
+<img src="https://github.com/btking1/Budget-Tracker-PWA/blob/main/images/Screenshot%20.jpg?raw=true" alt="budget tracker" title="screenshot" width="auto" height="400vh" /> 
 
-<img src="https://github.com/btking1/Budget-Tracker-PWA/blob/main/images/Screenshot-mobile-view.jpg?raw=true" alt="budget tracker mobile" title="screenshot-mobile" width="auto" height="400vh" style="text-align:center"/> 
+<br/>
+
+<img src="https://github.com/btking1/Budget-Tracker-PWA/blob/main/images/Screenshot-mobile-view.jpg?raw=true" alt="budget tracker mobile" title="screenshot-mobile" width="auto" height="300vh" style="text-align:center"/> 
 
 ## Questions
 
