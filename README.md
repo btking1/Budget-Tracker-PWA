@@ -52,6 +52,10 @@ Budget-Tracker is a fully realized progressive web app that allows users to trac
 
 <img src="https://github.com/btking1/Budget-Tracker-PWA/blob/main/images/Screenshot-mobile-view.jpg?raw=true" alt="budget tracker mobile" title="screenshot-mobile" width="auto" height="300vh" style="text-align:center"/> 
 
+### MOBILE VIEW
+
+
+<br/>
 ## Questions
 
 If you have any questions, please feel free to contact me.
